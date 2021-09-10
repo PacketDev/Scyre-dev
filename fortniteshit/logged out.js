@@ -10,4 +10,3 @@ express.delete('/account/api/oauth/sessions/kill/*', async (req, res) => {
   console.log("Scyre user logged out!!")
 });
 }
-// hey has whats up lol
