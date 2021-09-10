@@ -1,4 +1,4 @@
-<h1 align='center'>Scyre Backend</h1>
+<h1 align='center'>Scyre V1 Backend</h1>
 
 <p align='center'>
     <a href='https://nodejs.org/en/download/' align='center'>
