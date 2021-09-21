@@ -14,7 +14,7 @@ const port = require(`./port.json`)
 
 express.listen(process.env.port || port.port || 3551, () => {
     Flowlog.Log('Created by Zinx')
-		Flowlog.Log('Backend Help : Noffie')
+    Flowlog.Log('Backend Help : Noffie')
     Flowlog.Log(`listening to port\x1b[36m ${port.port} \x1b[0m`)
     Flowlog.Server(`Enjoy Scyre!`)
 });
@@ -40,7 +40,7 @@ express.get('/launcher/api/public/distributionpoints/', async (req, res) => {
 			'https://download3.epicgames.com/',
 			'https://download4.epicgames.com/',
 			'https://epicgames-download1.akamaized.net/',
-      'https://fastly-download.epicgames.com/'
+                        'https://fastly-download.epicgames.com/'
 		]
 	});
 	res.status(200);
