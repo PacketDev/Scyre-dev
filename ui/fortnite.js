@@ -16,7 +16,7 @@ module.exports = {
             message: {
                 _type: 'CommonUI Simple Message Base',
                 title: 'Scyre',
-                body: 'Updates:'
+                body: 'Updates:\n 0.1 -- backend \n nothing else lol'
             }
         },
         _activeDate: new Date().toISOString(),
